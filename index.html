@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exemplo 01 a 03</title>
+
+  <!--EXEMPLO01-->
+  <script>
+    var dias = Number(prompt("Dias trabalhados: "));
+    var horas = Number(prompt("Horas trabalhadas por dia: "));
+    var total = (dias * horas);  
+    alert("Total de Horas: " + total +"Hrs");
+  </script>
+  <!--FIM EXEMPLO01-->
+
+  <style>
+
+    body{
+      background-color: brown;
+    }
+    .exemplo02, .exemplo03{
+        background-color: azure;
+        text-align: center;
+        padding: 20px;
+        border-radius: 30px;
+        border: solid black;
+    }
+    
+    
+    </style>
+</head>
+
+<body>
+<!--EXEMPLO02-->
+<div class="exemplo02">
+<h1> Programa: Olá Você! </h1>
+<p> Nome:
+<input type="text" id="nome">
+<input type="button" value="Mostrar Nome" id="mostrar">
+</p>
+<p id="resposta"></p>
+<script src="exemplos.js"></script>
+</div>
+<br><br>
+<!--FIM EXEMPLO02-->
+
+<!--EXEMPLO03-->
+<div class="exemplo03">
+<h1>Farmácia</h1>
+  <p>Medicamento:
+    <input type="text" id="inMedicamento">
+  </p>
+  <p>Preço R$:
+    <input type="text" id="inPreco">
+  </p>
+  <p>
+    <input type="button" value="Mostrar Promoção" id="btMostrar">
+  </p>
+  <h3 id="outMedicamento"></h3>
+  <h3 id="outPromocao"></h3>
+  <script src="exemplos.js"></script>
+</div>
+<!--FIM EXEMPLO03-->
+</body>
+
+</html>
